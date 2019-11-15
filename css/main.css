@@ -199,12 +199,12 @@ li.menu1 a::after{
     padding: 20px 20px 85px 20px ;
 }
 
-#second, #four {
+#second {
     background: #fff;
     max-width:  1140px;
     display: flex;
-    margin: auto;
-    align-items: baseline; 
+    margin:  auto;
+    align-items: center; 
     text-align: center;
     
 }
@@ -216,7 +216,7 @@ li.menu1 a::after{
         background-color: #ec644b;
         margin: auto;
     }
-.container3 , .container4{ 
+.container3 { 
     
     padding: 10px 0 10px 0;
     margin: auto;
@@ -235,18 +235,18 @@ li.menu1 a::after{
     
 }
 .container4{
+    width: 1140px;
     display: flex;
     flex-direction: row;
-    padding: 15px;
-    margin: auto;
+    padding: 15px 0 40px 0;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 .container4 div{
-    width: 263px;
-    /* padding: 0px 40px 0 0; */
-    
-    border: 1px solid black;
+    max-width: 360px;
 }
-.container4 h3{
+
+.container4 h2{
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 18px;
@@ -256,6 +256,7 @@ li.menu1 a::after{
     font-family: 'Roboto';
     font-weight: 100;
     font-size: 14px;
+    text-align: justify;
 }
 #thirth{
     background: url(../img/sc-bg.jpg) top center /cover;
@@ -282,6 +283,67 @@ li.menu1 a::after{
     font-weight: 100;
 }
 #four{
-    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
 }
-
+.container5 {
+    margin:  auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.container5 div{
+   
+    height: 360px;
+    border: 1px solid #e3e3e3 ;
+    max-width: 263px;
+}
+.container5 h1{
+    background: #25333c;
+    padding: 22px  ;
+    margin: 0;
+    color: white;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container5 img{
+    padding-top: 15px;
+}
+.container5 h2{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 50;
+    
+}
+.container5 h3{
+    margin: 0;
+    color: #ec644b;
+    font-size: 28px;
+    font-family: 'Roboto'
+}
+.container5 p{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0 0 40px;
+    padding-top: 15px;
+}
+.buttom3{
+    margin: auto;
+    max-width: 160px;
+    color: #fff;
+    background: #ec644b;
+    font-size: 12px;
+    border-radius: 35px;
+    font-family: 'Roboto Regular';
+    text-decoration: none;
+    text-align: right;
+    padding: 23px 45px ;
+}
